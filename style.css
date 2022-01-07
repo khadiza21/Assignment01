@@ -151,6 +151,17 @@ a{
    background-size:cover;
 
 } */
+
+#community-1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+   background-position: right;
+}
+#community-1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+   background-position: right;
+}
 .develop{
     display:flex;
      height: 450px;
