@@ -15,7 +15,7 @@ a{
     color: white;
     font-weight: bold;
     margin-top: 1rem;
-     background-color: rgb(235, 102, 102);
+    background-color: rgb(235, 102, 102);
     text-decoration: none;
     border-radius: 5px;
     font-size: 15px;
@@ -41,9 +41,22 @@ a{
 }
 
 #stay h1{
-    font-size: 55px;
+    font-size: 50px;
     border-left:4px solid rgb(230, 66, 66);
-    padding: 0px 0px;
+    border-image-slice: 1;
+    margin: 0px;
+    padding: 0%;
+    padding-left: 13px;
+   
+}
+#stay p{
+    
+    border-left:4px solid rgb(230, 66, 66);
+    border-image-slice: 1;
+    margin: 0px;
+    color: black;
+    margin-top: 15px;
+   
 }
 
 #mission{
@@ -155,12 +168,15 @@ a{
 #community-1{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
-   background-position: right;
+   background-position: left;
+   background-size: 300px ;
 }
-#community-1{
+#community-2{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
    background-position: right;
+   background-size: 300px ;
+   
 }
 .develop{
     display:flex;
