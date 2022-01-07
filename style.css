@@ -158,13 +158,6 @@ a{
 
 
 
-/* .develop{
-    background-image: url(images/top-banner.png);
-   background-repeat: no-repeat;
-   background-size:cover;
-
-} */
-
 #community-1{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
@@ -174,7 +167,7 @@ a{
 #community-2{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
-   background-position: right;
+   background-position: right bottom;
    background-size: 300px ;
 
 }
