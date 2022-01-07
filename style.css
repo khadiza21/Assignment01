@@ -1,27 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
-.banner{
-    margin: 200px;
-    display: flex;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+   
 }
-.banner h1{
-    color: rgb(12, 12, 12);
+
+a{
+
+    padding: 1em 4em;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+     background-color: rgb(235, 102, 102);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+
 }
-.banner img{
-    height: 500px;
-    
-}
-.banner button{
-    background-color: rgb(0, 155, 77);
-}
+
+
+
+
 .txt-orange{
     color:orange;
 }
+.head-space{
+    margin-top: 130px;
+}
+
+#mission{
+    text-align: center;
+    font-size: 22px;
+    color: rgb(8, 10, 48);
+}
 .mission{
     display: flex;
+    padding: 125px;
+    padding-top: 10px;
+
+
+
 }
-footer{
-    background-color: black;
+.mission h1{
+    font-size: xx-large;
+    padding-bottom: 8px;
+
+}
+
+.mission img{
+ height: 135px;
+}
+.mission p{
+    color: rgb(80, 79, 79);
+    font-size: 19px;
+}
+.mission-t{
+    background-color: gray;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    height: 350px;
+   
+
+}
+
+#m-1{
+    background-color: rgba(173, 216, 230, 0.26);
+}
+#m-2{
+    background-color: rgba(255, 182, 193, 0.226);
+}
+#m-3{
+    background-color: rgba(245, 245, 197, 0.473);
+}
+
+
+
+
+
+#mission{
     text-align: center;
-    padding: 40px;
+    font-size: 22px;
+    color: rgb(8, 10, 48);
+}
+.blogs{
+    display: flex;
+    padding: 125px;
+    padding-top: 10px;
+    margin: 25px 5px;
+
+
+
+}
+.blogs h1{
+    font-size: xx-large;
+    padding-bottom: 8px;
+    color: rgb(10, 10, 54);
+
+}
+
+.blogs p{
+    color: rgb(80, 79, 79);
+    font-size: 19px;
+}
+.blog-t{
+ text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    height: 350px;
+   
+
+}
+
+#b-1{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#b-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#b-3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* .develop{
+    background-image: url(images/top-banner.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+
+} */
+.develop{
+    display:flex;
+     height: 450px;
+
+
+}
+.develop h1{
+        font-size: xx-large;
+        padding-bottom: 8px;
+    
+}
+.develop p{
+    color: rgb(80, 79, 79);
+    font-size: 19px;
+}
+.develop img{
+    height: 400px;
+}
+.half-width{
+   height: 100%;
+    width: 50%;
+    padding-left: 5rem;
+    margin: 3%;
+
+    
+   
+}
+
+footer{
+    background-color: rgb(1, 1, 7);
+    text-align: center;
+    padding: 50px;
     color: white;
+}
+footer h1{
+    font-family: cursive;
+    padding-bottom: 35px;
 }
