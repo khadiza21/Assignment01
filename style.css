@@ -176,7 +176,7 @@ a{
     background-repeat: no-repeat;
    background-position: right;
    background-size: 300px ;
-   
+
 }
 .develop{
     display:flex;
@@ -205,6 +205,11 @@ a{
     
    
 }
+
+p{
+    text-align: justify;
+}
+
 
 footer{
     background-color: rgb(1, 1, 7);
